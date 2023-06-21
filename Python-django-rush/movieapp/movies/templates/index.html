@@ -1,3 +1,5 @@
+{% load static %}
+
 <h1>Home Page</h1>
 
 <ul>
@@ -12,7 +14,7 @@
             <div>
                 <p>{{ film.film_adi }}</p>
                 <p>{{ film.aciklama }}</p>
-                <img src="{{ film.resim}}" alt="">
+                <img src="{% static 'img/'|add:film.resim %}" alt="">
             </div>
         {% endif %}
     {% endfor %}

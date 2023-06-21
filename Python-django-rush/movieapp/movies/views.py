@@ -5,25 +5,25 @@ film_liste = [
     {
         "film_adi": "film 1",
         "aciklama": "film 1 açıklama",
-        "resim": "https://picsum.photos/200/300?random=1",
+        "resim": "1.jpeg",
         "anasayfa": True
     },
     {
         "film_adi": "film 2",
         "aciklama": "film 2 açıklama",
-        "resim": "https://picsum.photos/200/300?random=2",
+        "resim": "2.jpeg",
         "anasayfa": True
     },
     {
         "film_adi": "film 3",
         "aciklama": "film 3 açıklama",
-        "resim": "https://picsum.photos/200/300?random=3",
+        "resim": "3.jpeg",
         "anasayfa": False
     },
     {
         "film_adi": "film 4",
         "aciklama": "film 4 açıklama",
-        "resim": "https://picsum.photos/200/300?random=4",
+        "resim": "4.jpeg",
         "anasayfa": False
     }
 ]  
